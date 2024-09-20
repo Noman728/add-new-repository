@@ -1,0 +1,42 @@
+div{
+    margin-left: 50px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: chartreuse;
+    transition: width 2s, height 2s, transform 2s;
+}
+div:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+.abc{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    transition: width 2s, height 2s, transform 2s;
+}
+.abc:hover{
+    float: left;
+    width: 300px;
+    height: 300px;
+    transform: rotateZ('180deg');
+
+}
+.nomi{
+    margin-left: 50px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    background: rgb(226, 97, 10);
+    transition: width 2s, height 2s, transform 2s;
+}
+.nomi:hover{
+    float: left;
+    width: 300px;
+    height: 300px;
+    transform: (180deg);
+
+}

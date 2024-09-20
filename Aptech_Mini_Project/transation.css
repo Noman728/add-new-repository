@@ -1,0 +1,31 @@
+.web{
+    background-color: blueviolet;
+    border: 3px solid black;
+    width: 30.33%;
+    text-align: center;
+    color: coral;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+    box-sizing: border-box;
+    float: left;
+    transition:background-color 2s, border-radius 2s, color 2s;
+    -webkit-text-stroke-color: 0.5px;
+    -webkit-text-stroke-color:white ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.web img{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    width: 405px;
+    height: 290px;
+    transition: border-radius 2s;
+}
+.web:hover{
+    background-color: black;
+    color: white;
+    border-radius:11px;
+
+
+}
